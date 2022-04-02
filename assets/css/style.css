@@ -546,7 +546,17 @@ section {
 .services .icon-box:hover .icon i {
   color: #fff;
 }
+.ac-repair{
+  font-size:48px;
+  color:#e43c5c;
+}
+.services .icon-box:hover .ac-repair{
+  color: #fff !important;
+}
 
+ul {
+  list-style-type: none;
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/

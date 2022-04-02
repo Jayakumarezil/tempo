@@ -26,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/modal.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: Tempo - v4.7.0
@@ -144,8 +146,8 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-bs-toggle="modal" data-bs-target="#myModal2">
+            <div class="icon-box ">
               <div class="icon"><i class="bx bx-bulb"></i></div>
               <h4 class="title"><a href="">Electrical</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
@@ -162,8 +164,11 @@
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-brush"></i></div>
-              <h4 class="title"><a href="">Paint</a></h4>
+              <div class="icon">
+                <!-- <i class="bx bx-brush"></i> -->
+                <span class="iconify ac-repair" data-icon="fluent:wrench-screwdriver-20-regular" ></span>
+              </div>
+              <h4 class="title"><a href="">AC/Appliance Repair</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -385,9 +390,106 @@
 
       </div>
     </section><!-- End Portfolio Section -->
+  	<!-- Modal -->
+	<div class="modal right" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
 
+				<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="margin: 0;;"></button>
+					<h4 class="modal-title" id="myModalLabel2">Appliance Repair</h4>
+				</div>
+
+				<div class="modal-body">
+          <ul style="padding: 2%;">
+             <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Air Conditioner</span></h5>
+                      <span><i class="bx bx-link"></i></span>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Microwave</span></h5>
+                     <span><i class="bx bx-link"></i></span>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Refrigerator</span></h5>
+                      <div><span><i class="bx bx-link"></i></span></div>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Washing Machine</span></h5>
+                      <div><span><i class="bx bx-link"></i></span></div>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Water Purifier</span></h5>
+                      <div><span><i class="bx bx-link"></i></span></div>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      &nbsp;  <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Chimney</span></h5>
+                      &nbsp; <span><i class="bx bx-link"></i></span>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      &nbsp; <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Geyser</span></h5>
+                      &nbsp; &nbsp;&nbsp;<span><i class="bx bx-link"></i></span>
+                    </div>
+               </button>
+             </li>
+              <hr>
+              <li style="border: transparent;">
+                <button style="border: transparent;background: white;">
+                   <div class="d-flex justify-content-between" style="border: none !important;align-items: center;">
+                      <img src="assets/img/apple-touch-icon.png" style="width: 14%;height: 12%;">
+                      <h5> <span style="align-content: center;font-size: 15px;font-weight: bold;margin-top: 10%;">Television</span></h5>
+                    <span><i class="bx bx-link"></i></span>
+                    </div>
+               </button>
+             </li>
+              <hr>
+                </ul>
+				</div>
+
+			</div><!-- modal-content -->
+		</div><!-- modal-dialog -->
+	</div><!-- modal -->
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -453,10 +555,11 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title">
@@ -523,7 +626,8 @@
         </ul>
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section> -->
+    <!-- End F.A.Q Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -769,7 +873,9 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -777,6 +883,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function sidemodal(){
+      $('#myModal2').modal('show');
+    }
+  </script>
 
 </body>
 
